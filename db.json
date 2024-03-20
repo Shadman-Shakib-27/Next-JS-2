@@ -1,0 +1,40 @@
+{
+  "shoes": [
+    {
+      "id": 1,
+      "title": "Men's Running Shoes",
+      "description": "High-performance running shoes designed for men.",
+      "price": 89.99
+    },
+    {
+      "id": 2,
+      "title": "Women's Sneakers",
+      "description": "Comfortable and stylish sneakers for women.",
+      "price": 69.99
+    },
+    {
+      "id": 3,
+      "title": "Kid's Sports Shoes",
+      "description": "Durable sports shoes for active kids.",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "title": "Athletic Training Shoes",
+      "description": "Versatile shoes suitable for various athletic activities.",
+      "price": 79.99
+    },
+    {
+      "id": 5,
+      "title": "Casual Canvas Shoes",
+      "description": "Relaxed and comfortable canvas shoes for everyday wear.",
+      "price": 39.99
+    },
+    {
+      "id": 6,
+      "title": "Formal Leather Shoes",
+      "description": "Elegant leather shoes perfect for formal occasions.",
+      "price": 99.99
+    }
+  ]
+}

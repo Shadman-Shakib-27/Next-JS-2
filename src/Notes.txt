@@ -1,0 +1,35 @@
+1) Next Image Optimization --> First We Need To Import <Image/> From Next/image, Second We Need To Add Height,Weight, Thirdly We Need To Add Next.config.js Like This File. Open Next.config.js & Add module.exports=------, 
+
+2) Next Image Optimization --> In next.config.js we need To add this  
+   remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+    to use all external photo use. & We also able to add internal image , See page.js
+
+3) Next Font Optimization --> 1. import { Roboto } from "next/font/google";
+                              2. const roboto = Roboto({
+                                          weight: "400",
+                                          subsets: ["latin"],
+                                          display: "swap",
+                                          });
+                              3.  <body className={roboto.className}>{children}</body>
+
+4) metadata --> To Give Better SEO , 
+                                                export const metadata = {
+                                                title: "About Page",
+                                                description: "This is About Page",
+                                                };
+   i) import .. means relative path and @ means absolute path
+
+5) SSG and SSR --> https://medium.com/@chrisebuberoland/static-site-generation-ssg-vs-server-side-rendering-in-next-js-debf43f4bb7f
+
+6) Json Server & Next Js Data Fetching --> i) npm i json-server
+                                          ii) Add alternate protoco
+                                          iii) Create db.json in root
+   
+   Data Fetch: i) Must Be Server Component
+               ii) Must Be async Function
+               iii)See Details in HomePage.
